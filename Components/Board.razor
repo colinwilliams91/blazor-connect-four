@@ -1,4 +1,23 @@
-﻿<h3>Board</h3>
+﻿<HeadContent>
+	<style>
+		:root {
+			--board-bg: pink;
+			--player1: red;
+			--player2: blue;
+		}
+	</style>
+</HeadContent>
+
+<div>
+	<div class="board">
+		@for (int i = 0; i < 42; i++)
+		{
+			<span class="container">
+				<span></span>
+			</span>
+		}
+	</div>
+</div>
 
 @code {
 
